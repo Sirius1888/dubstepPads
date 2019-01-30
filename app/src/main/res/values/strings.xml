@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
+
+
+    //region toolbar menu
+    <string name="statistics">statistic</string>
+    <string name="clear">clear</string>
+    //endregion
+
+
 </resources>

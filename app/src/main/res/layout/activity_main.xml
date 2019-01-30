@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                    android:id="@+id/boom_play_sound_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="boom"
+                    android:textSize="35sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+            <Button
+                    android:id="@+id/clap_play_sound_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="clap"
+                    android:textSize="35sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+            <Button
+                    android:id="@+id/hihat_play_sound_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="hihat"
+                    android:textSize="35sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+            <Button
+                    android:id="@+id/kick_play_sound_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="kick"
+                    android:textSize="35sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+            <Button
+                    android:id="@+id/openhat_play_sound_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="openhat"
+                    android:textSize="35sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+            <Button
+                    android:id="@+id/ride_play_sound_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="ride"
+                    android:textSize="35sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+            <Button
+                    android:id="@+id/snare_play_sound_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="snare"
+                    android:textSize="35sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+            <Button
+                    android:id="@+id/tink_play_sound_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="tink"
+                    android:textSize="35sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
